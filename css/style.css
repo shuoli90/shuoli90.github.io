@@ -95,3 +95,65 @@ a:hover {
     color: #0056b3;  /* Darker blue on hover */
     text-decoration: underline;  /* Underline on hover */
 }
+
+.publication {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.paper-img {
+    width: 150px;  /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.paper-details {
+    max-width: 800px;  /* Adjust based on your design */
+}
+
+.paper-details h3 {
+    margin: 0 0 10px 0;
+}
+
+.paper-details p {
+    margin: 5px 0;
+}
+
+.paper-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.paper-details a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.paper-details p {
+    margin: 5px 0;
+}
+
+.paper-details p strong {
+    color: #333;
+}
+
+.paper-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.paper-details a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.paper-img {
+    width: 300px;  /* Increase the width */
+    height: auto;  /* Maintain aspect ratio */
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

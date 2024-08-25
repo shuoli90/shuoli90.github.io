@@ -60,22 +60,37 @@
             <h2>Publications</h2>
     
             <div class="publication">
-                <img src="images/paper1.jpg" alt="Paper 1 Idea" class="paper-img">
+                <img src="images/traq.png" alt="TRAQ" class="paper-img">
                 <div class="paper-details">
-                    <h3>Title of Paper 1</h3>
-                    <p><strong>Abstract:</strong> Brief description of the paper's content and key ideas.</p>
-                    <p><strong>Venue:</strong> Accepted at Conference/Journal Name, Year</p>
-                    <p><a href="link-to-full-paper-1.pdf" target="_blank">Read Full Paper</a></p>
+                    <h3>TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction
+                    </h3>
+                    <p><strong>TL;DR:</strong> TRAQ utilizes Conformal prediction and Bayesian optimization to guarantee the correcntess of RAG.</p>
+                    <p><strong>Abstract:</strong> When applied to open-domain question answering, large language models (LLMs) frequently generate incorrect responses based on made-up facts, which are called \textit{hallucinations}. Retrieval augmented generation (RAG) is a promising strategy to avoid hallucinations, but it does not provide guarantees on its correctness. To address this challenge, we propose the Trustworthy Retrieval Augmented Question Answering, or \textit{TRAQ}, which provides the first end-to-end statistical correctness guarantee for RAG. TRAQ uses conformal prediction, a statistical technique for constructing prediction sets that are guaranteed to contain the semantically correct response with high probability. Additionally, TRAQ leverages Bayesian optimization to minimize the size of the constructed sets. In an extensive experimental evaluation, we demonstrate that TRAQ provides the desired correctness guarantee while reducing prediction set size by 16.2\% on average compared to an ablation.</p>
+                    <p><strong>Venue:</strong> Accepted at NAACL, 2024</p>
+                    <p><a href="https://arxiv.org/abs/2307.04642" target="_blank">Read Full Paper</a></p>
                 </div>
             </div>
     
             <div class="publication">
-                <img src="images/paper2.jpg" alt="Paper 2 Idea" class="paper-img">
+                <img src="images/MoCAN.png" alt="MoCAN" class="paper-img">
                 <div class="paper-details">
-                    <h3>Title of Paper 2</h3>
-                    <p><strong>Abstract:</strong> Brief description of the paper's content and key ideas.</p>
-                    <p><strong>Venue:</strong> Submitted to Conference/Journal Name, Year</p>
-                    <p><a href="link-to-full-paper-2.pdf" target="_blank">Read Full Paper</a></p>
+                    <h3>One-Shot Safety Alignment for Large Language
+                        Models via Optimal Dualization</h3>
+                    <p><strong>TL;DR:</strong> Brief summary of the paper in a few words.</p>
+                    <p><strong>Abstract:</strong> The growing safety concerns surrounding Large Language Models (LLMs) raise an urgent need to align them with diverse human preferences to simultaneously enhance their helpfulness and safety. A promising approach is to enforce safety constraints through Reinforcement Learning from Human Feedback (RLHF). For such constrained RLHF, common Lagrangian-based primal-dual policy optimization methods are computationally expensive and often unstable. This paper presents a dualization perspective that reduces constrained alignment to an equivalent unconstrained alignment problem. We do so by pre-optimizing a smooth and convex dual function that has a closed form. This shortcut eliminates the need for cumbersome primal-dual policy iterations, thus greatly reducing the computational burden and improving training stability. Our strategy leads to two practical algorithms in model-based and preference-based scenarios (MoCAN and PeCAN, respectively). A broad range of experiments demonstrate the effectiveness of our methods.</p>
+                    <p><strong>Venue:</strong> Submitted to Neurips, 2024</p>
+                    <p><a href="https://arxiv.org/abs/2405.19544" target="_blank">Read Full Paper</a></p>
+                </div>
+            </div>
+            
+            <div class="publication">
+                <img src="images/rank.png" alt="Rank" class="paper-img">
+                <div class="paper-details">
+                    <h3>Uncertainty in Language Models: Assessment through Rank-Calibration</h3>
+                    <p><strong>TL;DR:</strong> Brief summary of the paper in a few words.</p>
+                    <p><strong>Abstract:</strong> Language Models (LMs) have shown promising performance in natural language generation. However, as LMs often generate incorrect or hallucinated responses, it is crucial to correctly quantify their uncertainty in responding to given inputs. In addition to verbalized confidence elicited via prompting, many uncertainty measures (e.g., semantic entropy and affinity-graph-based measures) have been proposed. However, these measures can differ greatly, and it is unclear how to compare them, partly because they take values over different ranges (e.g., [0,∞) or [0,1]). In this work, we address this issue by developing a novel and practical framework, termed Rank-Calibration, to assess uncertainty and confidence measures for LMs. Our key tenet is that higher uncertainty (or lower confidence) should imply lower generation quality, on average. Rank-calibration quantifies deviations from this ideal relationship in a principled manner, without requiring ad hoc binary thresholding of the correctness score (e.g., ROUGE or METEOR). The broad applicability and the granular interpretability of our methods are demonstrated empirically.</p>
+                    <p><strong>Venue:</strong> Submitted to EMNLP, 2024</p>
+                    <p><a href="https://arxiv.org/abs/2404.03163" target="_blank">Read Full Paper</a></p>
                 </div>
             </div>
     
