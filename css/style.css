@@ -78,3 +78,20 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+.icon {
+    width: 16px;  /* Adjust the size to fit the text */
+    height: 16px;
+    vertical-align: text-bottom;  /* Align the icon with the text */
+    margin-right: 5px;
+}
+
+a {
+    color: #007bff;  /* Bright blue color */
+    text-decoration: none;  /* Removes underline */
+}
+
+a:hover {
+    color: #0056b3;  /* Darker blue on hover */
+    text-decoration: underline;  /* Underline on hover */
+}
