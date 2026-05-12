@@ -3,74 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shuo Li — Research Scientist, Google DeepMind</title>
+    <title>shuo li ~ research scientist @ google deepmind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <img src="images/personal.png" alt="Shuo Li" class="profile-img">
-            <h1>Shuo Li</h1>
-            <p class="role">Research Scientist, Google DeepMind</p>
-            <p class="affiliation">Ph.D., University of Pennsylvania &middot; Mountain View, CA</p>
-            <p class="header-links">
-                <a href="mailto:shuoli0128@gmail.com">Email</a>
-                <span class="sep">&middot;</span>
-                <a href="https://scholar.google.com/citations?user=WPa3i8IAAAAJ&hl=en" target="_blank" rel="noopener">
-                    <img src="images/google-scholar.png" alt="" class="icon">Google Scholar
-                </a>
-                <span class="sep">&middot;</span>
-                <a href="https://www.linkedin.com/in/shuo-li-penn" target="_blank" rel="noopener">
-                    <img src="images/linkedin.png" alt="" class="icon">LinkedIn
-                </a>
-                <span class="sep">&middot;</span>
-                <a href="https://github.com/shuoli90" target="_blank" rel="noopener">GitHub</a>
-                <span class="sep">&middot;</span>
-                <a href="materials/cv/Resume_Shuo_Li.pdf" target="_blank" rel="noopener">CV</a>
-            </p>
+<body class="booting">
+
+    <!-- Boot overlay -->
+    <div id="boot" aria-hidden="false">
+        <button class="boot-skip" type="button" id="boot-skip" aria-label="Skip boot animation">
+            skip animation <span class="chev">»</span>
+        </button>
+        <div class="boot-inner" id="boot-stream"></div>
+    </div>
+
+    <div class="site">
+
+    <div class="terminal">
+        <div class="term-bar">
+            <span class="term-dots">
+                <span class="term-dot red"></span>
+                <span class="term-dot yellow"></span>
+                <span class="term-dot green"></span>
+            </span>
+            <span class="term-title"><span class="path">~/shuo-li</span> &mdash; zsh &mdash; 92&times;30</span>
+            <span style="width:46px"></span>
         </div>
-    </header>
+        <div class="term-body">
+            <header>
+                <div class="whoami">
+                    <img src="images/personal.png" alt="Shuo Li" class="profile-img">
+                    <div class="whoami-out">
+                        <h1>Shuo Li</h1>
+                        <p class="role"><span class="at">research scientist</span> <strong>@ google&middot;deepmind</strong></p>
+                        <p class="affiliation"><span class="key">phd</span>=<span class="val">"upenn '25"</span><span class="sep">;</span> <span class="key">loc</span>=<span class="val">"mountain view, ca"</span></p>
+                        <p class="header-links">
+                            <a href="mailto:shuoli0128@gmail.com">email</a>
+                            <span class="sep">|</span>
+                            <a href="https://scholar.google.com/citations?user=WPa3i8IAAAAJ&hl=en" target="_blank" rel="noopener"><img src="images/google-scholar.png" alt="" class="icon">scholar</a>
+                            <span class="sep">|</span>
+                            <a href="https://www.linkedin.com/in/shuo-li-penn" target="_blank" rel="noopener"><img src="images/linkedin.png" alt="" class="icon">linkedin</a>
+                            <span class="sep">|</span>
+                            <a href="https://github.com/shuoli90" target="_blank" rel="noopener">github</a>
+                            <span class="sep">|</span>
+                            <a href="materials/cv/Resume_Shuo_Li.pdf" target="_blank" rel="noopener">cv.pdf</a>
+                        </p>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
 
     <nav>
         <div class="container">
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#research">research</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#publications">publications</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </div>
     </nav>
 
     <section id="about" class="section">
         <div class="container">
-            <h2>About Me</h2>
+            <h2>cat <span class="arg">about.md</span></h2>
             <p>I am a Research Scientist at Google DeepMind, where I work on safe coding agents and formal-verification-based safety mechanisms for large language model agents. Previously, I was an Applied Scientist at Amazon AWS AI Lab, where I shipped a production-grade agent verification module that is now integrated into a flagship AWS product used by enterprise customers.</p>
-            <p>I completed my Ph.D. in Computer Science at the University of Pennsylvania in 2025, advised by <a href="https://www.cis.upenn.edu/~lee/" target="_blank" rel="noopener">Insup Lee</a> and <a href="https://obastani.github.io/" target="_blank" rel="noopener">Osbert Bastani</a>. My research focuses on <strong>agentic AI safety</strong>, <strong>alignment</strong>, <strong>uncertainty quantification</strong>, and <strong>LLM evaluation</strong> — with the long-term goal of building reliable, secure, and verifiable LLM agent systems. My work has been published at NeurIPS, ICLR, ICML, NAACL, EMNLP, and KDD, including a Spotlight at NeurIPS 2024 and a Best Paper at the 2023 TEACH workshop at ICML.</p>
-            <p>I'm always open to collaboration on agentic safety and trustworthy AI — feel free to reach out.</p>
+            <p>I completed my Ph.D. in Computer Science at the University of Pennsylvania in 2025, advised by <a href="https://www.cis.upenn.edu/~lee/" target="_blank" rel="noopener">Insup Lee</a> and <a href="https://obastani.github.io/" target="_blank" rel="noopener">Osbert Bastani</a>. My research focuses on <strong>agentic AI safety</strong>, <strong>alignment</strong>, <strong>uncertainty quantification</strong>, and <strong>LLM evaluation</strong> &mdash; with the long-term goal of building reliable, secure, and verifiable LLM agent systems. My work has been published at NeurIPS, ICLR, ICML, NAACL, EMNLP, and KDD, including a Spotlight at NeurIPS 2024 and a Best Paper at the 2023 TEACH workshop at ICML.</p>
+            <p>I'm always open to collaboration on agentic safety and trustworthy AI &mdash; feel free to reach out.</p>
         </div>
     </section>
 
     <section id="research" class="section">
         <div class="container">
-            <h2>Research Interests</h2>
+            <h2>ls <span class="arg">research/</span></h2>
             <ul class="tag-list">
-                <li>Agentic AI</li>
-                <li>AI Safety (Alignment &amp; Uncertainty Quantification)</li>
-                <li>LLM Evaluation</li>
+                <li>agentic_ai</li>
+                <li>ai_safety (alignment &amp; uq)</li>
+                <li>llm_evaluation</li>
             </ul>
         </div>
     </section>
 
     <section id="experience" class="section">
         <div class="container">
-            <h2>Work Experience</h2>
+            <h2>git log <span class="arg">--experience</span></h2>
 
             <div class="experience">
                 <div class="experience-header">
-                    <p class="experience-role">Research Scientist <span class="experience-org">&middot; Google DeepMind</span></p>
-                    <span class="experience-dates">Apr 2026 &ndash; Present</span>
+                    <p class="experience-role">Research Scientist <span class="experience-org">Google DeepMind</span></p>
+                    <span class="experience-dates">Apr 2026 &mdash; present</span>
                 </div>
                 <ul>
                     <li>Shipped three agentic safety datasets, including adversarial prompt injection and real user trajectory data.</li>
@@ -80,8 +105,8 @@
 
             <div class="experience">
                 <div class="experience-header">
-                    <p class="experience-role">Applied Scientist <span class="experience-org">&middot; Amazon AWS AI Lab</span></p>
-                    <span class="experience-dates">Jun 2025 &ndash; Mar 2026</span>
+                    <p class="experience-role">Applied Scientist <span class="experience-org">Amazon AWS AI Lab</span></p>
+                    <span class="experience-dates">Jun 2025 &mdash; Mar 2026</span>
                 </div>
                 <ul>
                     <li>Shipped a production-grade agent verification module, integrated into a flagship AWS product used by enterprise customers.</li>
@@ -95,9 +120,9 @@
 
     <section id="publications" class="section">
         <div class="container">
-            <h2>Publications</h2>
+            <h2>ls -la <span class="arg">publications/</span></h2>
 
-            <h3 class="pub-year" style="margin-top: 0;">Featured</h3>
+            <h3 class="pub-year">featured</h3>
 
             <div class="publication">
                 <img src="images/MoCAN.png" alt="MoCAN" class="paper-img">
@@ -109,7 +134,7 @@
                     <p><strong>Abstract:</strong> The growing safety concerns surrounding LLMs raise an urgent need to align them with diverse human preferences. We present a dualization perspective that reduces constrained alignment to an equivalent unconstrained problem by pre-optimizing a smooth and convex dual function with a closed form. This eliminates cumbersome primal-dual policy iterations, greatly reducing computational burden and improving training stability. Our strategy yields two practical algorithms (MoCAN and PeCAN) in model-based and preference-based settings.</p>
                     <p>
                         <a href="https://arxiv.org/abs/2405.19544" target="_blank" rel="noopener">arXiv</a>
-                        &middot;
+                        <span style="color:var(--muted)">&middot;</span>
                         <a href="materials/papers/NeurIPS-2024-one-shot-safety-alignment-for-large-language-models-via-optimal-dualization-Paper-Conference.pdf" target="_blank" rel="noopener">PDF</a>
                     </p>
                 </div>
@@ -125,7 +150,7 @@
                     <p><strong>Abstract:</strong> Many uncertainty measures (semantic entropy, affinity-graph-based measures, etc.) have been proposed for language models, but they take values over different ranges, making them hard to compare. We develop <em>Rank-Calibration</em>, a principled framework whose key tenet is that higher uncertainty should imply lower generation quality on average. Rank-calibration quantifies deviations from this ideal without requiring ad-hoc thresholding of correctness scores. We demonstrate broad applicability and interpretability empirically.</p>
                     <p>
                         <a href="https://arxiv.org/abs/2404.03163" target="_blank" rel="noopener">arXiv</a>
-                        &middot;
+                        <span style="color:var(--muted)">&middot;</span>
                         <a href="materials/papers/2024.emnlp-main.18.pdf" target="_blank" rel="noopener">PDF</a>
                     </p>
                 </div>
@@ -141,13 +166,13 @@
                     <p><strong>Abstract:</strong> When applied to open-domain question answering, LLMs frequently generate incorrect responses based on hallucinated facts. RAG mitigates hallucinations but provides no correctness guarantees. We propose TRAQ, which uses conformal prediction to construct prediction sets guaranteed to contain the semantically correct response with high probability, and Bayesian optimization to minimize set size. Empirically, TRAQ provides the desired correctness guarantee while reducing prediction set size by 16.2% on average compared to ablations. <em>Also: Best Paper, 2023 TEACH Workshop @ ICML.</em></p>
                     <p>
                         <a href="https://arxiv.org/abs/2307.04642" target="_blank" rel="noopener">arXiv</a>
-                        &middot;
+                        <span style="color:var(--muted)">&middot;</span>
                         <a href="materials/papers/2024.naacl-long.210.pdf" target="_blank" rel="noopener">PDF</a>
                     </p>
                 </div>
             </div>
 
-            <h3 class="pub-year">2026 &amp; Under Review</h3>
+            <h3 class="pub-year">2026 / under review</h3>
             <ul class="pub-list">
                 <li>
                     <span class="pub-title">QUASAR: A Fast, Reliable, and Secure Programming Language for LLM Agents with Code Actions</span>
@@ -277,7 +302,7 @@
                 </li>
             </ul>
 
-            <h3 class="pub-year">Earlier</h3>
+            <h3 class="pub-year">earlier</h3>
             <ul class="pub-list">
                 <li>
                     <span class="pub-title">PAC-Wrap: Semi-Supervised PAC Anomaly Detection</span>
@@ -327,19 +352,180 @@
 
     <section id="contact" class="section">
         <div class="container">
-            <h2>Contact</h2>
+            <h2>whoami <span class="arg">--contact</span></h2>
             <ul class="contact-list">
-                <li><strong>Email:</strong> <a href="mailto:shuoli0128@gmail.com">shuoli0128@gmail.com</a></li>
-                <li><strong>Location:</strong> Mountain View, CA</li>
+                <li><strong>email:</strong> <a href="mailto:shuoli0128@gmail.com">shuoli0128@gmail.com</a></li>
+                <li><strong>loc:</strong> Mountain View, CA</li>
+                <li><strong>orgs:</strong> Google DeepMind &middot; UPenn (alumni)</li>
             </ul>
+            <p style="margin-top:14px;color:var(--muted);font-size:13px;">$ <span style="color:var(--cyan)">_</span><span class="cursor"></span></p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>Founder &amp; co-host of <a href="https://github.com/Penn-Agents" target="_blank" rel="noopener">Penn-Agents</a> &mdash; UPenn LLM Agent Reading Group.</p>
-            <p>&copy; 2026 Shuo Li. All rights reserved.</p>
+            <p>founder &amp; co-host of <a href="https://github.com/Penn-Agents" target="_blank" rel="noopener">Penn-Agents</a> &mdash; upenn llm agent reading group</p>
+            <p>&copy; 2026 shuo li &mdash; all rights reserved</p>
         </div>
     </footer>
+
+    </div><!-- /.site -->
+
+    <script>
+    (function () {
+        var bootEl   = document.getElementById('boot');
+        var streamEl = document.getElementById('boot-stream');
+        var skipBtn  = document.getElementById('boot-skip');
+        var body     = document.body;
+
+        var PROMPT = '<span class="b-user">shuoli</span><span class="b-at">@</span><span class="b-host">deepmind</span><span class="b-colon">:</span><span class="b-path">{PATH}</span><span class="b-colon">$</span> <span class="b-dollar"></span>';
+
+        function p(path) { return PROMPT.replace('{PATH}', path); }
+
+        var script = [
+            { type: 'instant',  html: '<span class="b-dim">Last login: ' + new Date().toUTCString() + ' on ttys001</span>\n' },
+            { type: 'prompt',   path: '~' },
+            { type: 'cmd',      html: '<span class="b-cmd">pwd</span>' },
+            { type: 'pause',    ms: 220 },
+            { type: 'newline' },
+            { type: 'output',   html: '/Users/shuoli\n' },
+
+            { type: 'prompt',   path: '~' },
+            { type: 'cmd',      html: '<span class="b-cmd">cd</span> <span class="b-arg">~/portfolio</span>' },
+            { type: 'pause',    ms: 240 },
+            { type: 'newline' },
+
+            { type: 'prompt',   path: '~/portfolio' },
+            { type: 'cmd',      html: '<span class="b-cmd">ls</span> <span class="b-flag">-F</span>' },
+            { type: 'pause',    ms: 260 },
+            { type: 'newline' },
+            { type: 'output',   html: '<span class="b-md">about.md</span>      <span class="b-dir">research/</span>          <span class="b-dir">experience/</span>\n<span class="b-dir">publications/</span> <span class="b-file">contact.txt</span>       <span class="b-md">cv.pdf</span>\n' },
+
+            { type: 'prompt',   path: '~/portfolio' },
+            { type: 'cmd',      html: '<span class="b-cmd">./serve.sh</span> <span class="b-flag">--mode=portfolio</span>' },
+            { type: 'pause',    ms: 280 },
+            { type: 'newline' },
+            { type: 'output',   html: '<span class="b-dim">[1/4]</span> resolving identity ........ <span class="b-ok">ok</span>\n', delay: 180 },
+            { type: 'output',   html: '<span class="b-dim">[2/4]</span> loading publications (24) . <span class="b-ok">ok</span>\n', delay: 200 },
+            { type: 'output',   html: '<span class="b-dim">[3/4]</span> hydrating experience ...... <span class="b-ok">ok</span>\n', delay: 180 },
+            { type: 'output',   html: '<span class="b-dim">[4/4]</span> starting static server .... <span class="b-ok">ok</span>\n', delay: 180 },
+            { type: 'output',   html: '\n  <span class="b-banner">✓ ready</span> <span class="b-dim">in 327ms</span>\n', delay: 120 },
+            { type: 'output',   html: '  <span class="b-dim">➜</span>  local:   <span class="b-link">http://localhost:5173</span>\n', delay: 80 },
+            { type: 'output',   html: '  <span class="b-dim">➜</span>  press <span class="b-arg">enter</span> to launch portfolio\n', delay: 80 },
+            { type: 'pause',    ms: 380 }
+        ];
+
+        // Realistic-but-fast typewriter timings.
+        var CHAR_DELAY = 22;   // ms per char while typing commands
+        var LINE_DELAY = 6;    // ms per char while streaming output
+
+        var i = 0;
+        var skipped = false;
+        var cursorHTML = '<span class="boot-cursor"></span>';
+
+        function setStreamFinalCursor() {
+            // remove any existing cursors
+            streamEl.innerHTML = streamEl.innerHTML.replace(/<span class="boot-cursor"><\/span>/g, '');
+            streamEl.insertAdjacentHTML('beforeend', cursorHTML);
+        }
+
+        function append(html) {
+            // strip last cursor before appending
+            var html2 = streamEl.innerHTML.replace(/<span class="boot-cursor"><\/span>/g, '') + html;
+            streamEl.innerHTML = html2 + cursorHTML;
+        }
+
+        function typeText(rawHTML, perCharDelay, done) {
+            // We need to type out html safely. Approach: incrementally add one *visible*
+            // character at a time. We split the HTML into tokens (text vs tags) and
+            // reveal characters from text tokens, but always emit full tags.
+            var tokens = [];
+            var re = /<[^>]+>|[^<]+/g, m;
+            while ((m = re.exec(rawHTML)) !== null) tokens.push(m[0]);
+
+            var current = '';
+            var ti = 0, ci = 0;
+
+            function step() {
+                if (skipped) return;
+                if (ti >= tokens.length) { done(); return; }
+                var tok = tokens[ti];
+                if (tok.charAt(0) === '<') {
+                    current += tok;
+                    ti++;
+                    streamEl.innerHTML = baseline + current + cursorHTML;
+                    setTimeout(step, 0);
+                } else {
+                    if (ci < tok.length) {
+                        current += tok.charAt(ci);
+                        ci++;
+                        streamEl.innerHTML = baseline + current + cursorHTML;
+                        setTimeout(step, perCharDelay);
+                    } else {
+                        ci = 0;
+                        ti++;
+                        setTimeout(step, 0);
+                    }
+                }
+            }
+            var baseline = streamEl.innerHTML.replace(/<span class="boot-cursor"><\/span>/g, '');
+            step();
+        }
+
+        function run() {
+            if (skipped) return;
+            if (i >= script.length) { finish(); return; }
+            var step = script[i++];
+
+            if (step.type === 'instant') {
+                append(step.html);
+                setTimeout(run, 50);
+            } else if (step.type === 'prompt') {
+                append(p(step.path));
+                setTimeout(run, 90);
+            } else if (step.type === 'cmd') {
+                typeText(step.html, CHAR_DELAY, function () { setTimeout(run, 60); });
+            } else if (step.type === 'pause') {
+                setTimeout(run, step.ms || 200);
+            } else if (step.type === 'newline') {
+                append('\n');
+                setTimeout(run, 20);
+            } else if (step.type === 'output') {
+                // stream output a tad faster
+                typeText(step.html, LINE_DELAY, function () { setTimeout(run, step.delay || 60); });
+            } else {
+                setTimeout(run, 30);
+            }
+        }
+
+        function finish() {
+            // remove cursor, fade out, reveal site
+            streamEl.innerHTML = streamEl.innerHTML.replace(/<span class="boot-cursor"><\/span>/g, '');
+            bootEl.classList.add('fading');
+            body.classList.remove('booting');
+            setTimeout(function () {
+                if (bootEl && bootEl.parentNode) bootEl.parentNode.removeChild(bootEl);
+            }, 500);
+        }
+
+        function skip() {
+            if (skipped) return;
+            skipped = true;
+            finish();
+        }
+
+        skipBtn.addEventListener('click', skip);
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' || e.key === 'Enter') skip();
+        });
+
+        // Respect reduced motion: just reveal immediately.
+        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            skip();
+        } else {
+            run();
+        }
+    })();
+    </script>
 </body>
 </html>
