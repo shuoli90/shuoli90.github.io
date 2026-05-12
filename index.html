@@ -6,27 +6,53 @@
     <title>Shuo Li — Research Scientist, Google DeepMind</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <div class="masthead">
+        <div class="container">
+            <span class="vol">Shuo Li &nbsp;/&nbsp; Personal Site</span>
+            <span>Vol. 02 &nbsp;·&nbsp; 2026</span>
+            <span>Mountain View, CA</span>
+        </div>
+    </div>
+
     <header>
         <div class="container">
             <div class="hero">
-                <div class="profile-wrap">
-                    <img src="images/personal.png" alt="Shuo Li" class="profile-img">
+                <div class="hero-left">
+                    <h1>Shuo&nbsp;Li</h1>
+                    <div class="lede">
+                        <div>
+                            <span class="label">Role</span>
+                            <span class="val">Research Scientist</span>
+                        </div>
+                        <div>
+                            <span class="label">Affiliation</span>
+                            <span class="val">Google DeepMind</span>
+                        </div>
+                        <div>
+                            <span class="label">Education</span>
+                            <span class="val">Ph.D., UPenn '25</span>
+                        </div>
+                        <div>
+                            <span class="label">Focus</span>
+                            <span class="val">Agentic AI Safety</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="hero-text">
-                    <h1>Shuo Li</h1>
-                    <p class="role">Research Scientist <span class="at-org">@ Google DeepMind</span></p>
-                    <p class="affiliation">Ph.D., University of Pennsylvania <span class="dot">·</span> Mountain View, CA</p>
+                <div class="hero-right">
+                    <div class="profile-wrap">
+                        <img src="images/personal.png" alt="Shuo Li" class="profile-img">
+                    </div>
                     <p class="header-links">
-                        <a href="mailto:shuoli0128@gmail.com">Email</a>
-                        <a href="https://scholar.google.com/citations?user=WPa3i8IAAAAJ&hl=en" target="_blank" rel="noopener"><img src="images/google-scholar.png" alt="" class="icon">Google Scholar</a>
-                        <a href="https://www.linkedin.com/in/shuo-li-penn" target="_blank" rel="noopener"><img src="images/linkedin.png" alt="" class="icon">LinkedIn</a>
-                        <a href="https://github.com/shuoli90" target="_blank" rel="noopener">GitHub</a>
-                        <a href="materials/cv/Resume_Shuo_Li.pdf" target="_blank" rel="noopener">CV</a>
+                        <a href="mailto:shuoli0128@gmail.com" data-num="01">Email</a>
+                        <a href="https://scholar.google.com/citations?user=WPa3i8IAAAAJ&hl=en" target="_blank" rel="noopener" data-num="02">Google Scholar</a>
+                        <a href="https://www.linkedin.com/in/shuo-li-penn" target="_blank" rel="noopener" data-num="03">LinkedIn</a>
+                        <a href="https://github.com/shuoli90" target="_blank" rel="noopener" data-num="04">GitHub</a>
+                        <a href="materials/cv/Resume_Shuo_Li.pdf" target="_blank" rel="noopener" data-num="05">Curriculum Vitae</a>
                     </p>
                 </div>
             </div>
@@ -36,18 +62,22 @@
     <nav>
         <div class="container">
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">01 · About</a></li>
+                <li><a href="#research">02 · Research</a></li>
+                <li><a href="#experience">03 · Experience</a></li>
+                <li><a href="#publications">04 · Publications</a></li>
+                <li><a href="#contact">05 · Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <section id="about" class="section">
         <div class="container">
-            <h2>About</h2>
+            <h2>
+                <span class="num">01</span>
+                <span class="title">About</span>
+                <span class="count">§ 1.1—1.3</span>
+            </h2>
             <p>I am a Research Scientist at Google DeepMind, where I work on safe coding agents and formal-verification-based safety mechanisms for large language model agents. Previously, I was an Applied Scientist at Amazon AWS AI Lab, where I shipped a production-grade agent verification module that is now integrated into a flagship AWS product used by enterprise customers.</p>
             <p>I completed my Ph.D. in Computer Science at the University of Pennsylvania in 2025, advised by <a href="https://www.cis.upenn.edu/~lee/" target="_blank" rel="noopener">Insup Lee</a> and <a href="https://obastani.github.io/" target="_blank" rel="noopener">Osbert Bastani</a>. My research focuses on <strong>agentic AI safety</strong>, <strong>alignment</strong>, <strong>uncertainty quantification</strong>, and <strong>LLM evaluation</strong> — with the long-term goal of building reliable, secure, and verifiable LLM agent systems. My work has been published at NeurIPS, ICLR, ICML, NAACL, EMNLP, and KDD, including a Spotlight at NeurIPS 2024 and a Best Paper at the 2023 TEACH workshop at ICML.</p>
             <p>I'm always open to collaboration on agentic safety and trustworthy AI — feel free to reach out.</p>
@@ -56,63 +86,74 @@
 
     <section id="research" class="section">
         <div class="container">
-            <h2>Research Interests</h2>
+            <h2>
+                <span class="num">02</span>
+                <span class="title">Research Interests</span>
+                <span class="count">3 areas</span>
+            </h2>
             <ul class="tag-list">
-                <li>Agentic AI</li>
-                <li>AI Safety (Alignment &amp; Uncertainty Quantification)</li>
-                <li>LLM Evaluation</li>
+                <li><span class="num">01</span>Agentic AI</li>
+                <li><span class="num">02</span>AI Safety — Alignment &amp; UQ</li>
+                <li><span class="num">03</span>LLM Evaluation</li>
             </ul>
         </div>
     </section>
 
     <section id="experience" class="section">
         <div class="container">
-            <h2>Experience</h2>
+            <h2>
+                <span class="num">03</span>
+                <span class="title">Experience</span>
+                <span class="count">2 roles</span>
+            </h2>
 
             <div class="experience">
-                <div class="experience-header">
-                    <p class="experience-role">Research Scientist <span class="experience-org">· Google DeepMind</span></p>
-                    <span class="experience-dates">Apr 2026 — Present</span>
+                <div class="experience-dates">Apr 2026<br>— Present</div>
+                <div class="experience-body">
+                    <p class="experience-role">Research Scientist <span class="experience-org">Google DeepMind</span></p>
+                    <ul>
+                        <li>Shipped three agentic safety datasets, including adversarial prompt injection and real user trajectory data.</li>
+                        <li>Building a formal-method-based policy guardian for LLM agents.</li>
+                        <li>Building red-teaming and evaluation sets to stress-test frontier agents and policy guardians.</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>Shipped three agentic safety datasets, including adversarial prompt injection and real user trajectory data.</li>
-                    <li>Building a formal-method-based policy guardian for LLM agents.</li>
-                    <li>Building red-teaming and evaluation sets to stress-test frontier agents and policy guardians.</li>
-                </ul>
             </div>
 
             <div class="experience">
-                <div class="experience-header">
-                    <p class="experience-role">Applied Scientist <span class="experience-org">· Amazon AWS AI Lab</span></p>
-                    <span class="experience-dates">Jun 2025 — Mar 2026</span>
+                <div class="experience-dates">Jun 2025<br>— Mar 2026</div>
+                <div class="experience-body">
+                    <p class="experience-role">Applied Scientist <span class="experience-org">Amazon AWS AI Lab</span></p>
+                    <ul>
+                        <li>Shipped a production-grade agent verification module, integrated into a flagship AWS product used by enterprise customers.</li>
+                        <li>Designed a formal-methods verification pipeline achieving 46.4% verification accuracy and reducing agent execution failures.</li>
+                        <li>Built Trajectory Analyzer, a reusable agent debugging library adopted by two internal agent teams.</li>
+                        <li>Pioneered post-training methods to generate formal specifications from natural language.</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>Shipped a production-grade agent verification module, integrated into a flagship AWS product used by enterprise customers.</li>
-                    <li>Designed a formal-methods verification pipeline achieving 46.4% verification accuracy and reducing agent execution failures.</li>
-                    <li>Built Trajectory Analyzer, a reusable agent debugging library adopted by two internal agent teams.</li>
-                    <li>Pioneered post-training methods to generate formal specifications from natural language.</li>
-                </ul>
             </div>
         </div>
     </section>
 
     <section id="publications" class="section">
         <div class="container">
-            <h2>Publications</h2>
+            <h2>
+                <span class="num">04</span>
+                <span class="title">Publications</span>
+                <span class="count">20 papers</span>
+            </h2>
 
-            <h3 class="pub-year">Featured</h3>
+            <p class="pub-year" data-count="03 selected">04.1 Featured</p>
 
             <div class="publication">
                 <img src="images/MoCAN.png" alt="MoCAN" class="paper-img">
                 <div class="paper-details">
                     <h3>One-Shot Safety Alignment for Large Language Models via Optimal Dualization
-                        <span class="venue-badge">NeurIPS 2024 · Spotlight</span>
+                        <span class="venue-badge spotlight">NeurIPS 2024 · Spotlight</span>
                     </h3>
-                    <p><strong>TL;DR:</strong> A one-shot safety alignment algorithm that navigates the helpfulness/safety trade-off via convex dualization, reducing computational complexity by ~90%.</p>
-                    <p><strong>Abstract:</strong> The growing safety concerns surrounding LLMs raise an urgent need to align them with diverse human preferences. We present a dualization perspective that reduces constrained alignment to an equivalent unconstrained problem by pre-optimizing a smooth and convex dual function with a closed form. This eliminates cumbersome primal-dual policy iterations, greatly reducing computational burden and improving training stability. Our strategy yields two practical algorithms (MoCAN and PeCAN) in model-based and preference-based settings.</p>
-                    <p>
+                    <p><strong>TL;DR</strong>A one-shot safety alignment algorithm that navigates the helpfulness/safety trade-off via convex dualization, reducing computational complexity by ~90%.</p>
+                    <p><strong>Abstract</strong>The growing safety concerns surrounding LLMs raise an urgent need to align them with diverse human preferences. We present a dualization perspective that reduces constrained alignment to an equivalent unconstrained problem by pre-optimizing a smooth and convex dual function with a closed form. This eliminates cumbersome primal-dual policy iterations, greatly reducing computational burden and improving training stability. Our strategy yields two practical algorithms (MoCAN and PeCAN) in model-based and preference-based settings.</p>
+                    <p class="paper-links">
                         <a href="https://arxiv.org/abs/2405.19544" target="_blank" rel="noopener">arXiv</a>
-                        &nbsp;·&nbsp;
                         <a href="materials/papers/NeurIPS-2024-one-shot-safety-alignment-for-large-language-models-via-optimal-dualization-Paper-Conference.pdf" target="_blank" rel="noopener">PDF</a>
                     </p>
                 </div>
@@ -124,11 +165,10 @@
                     <h3>Uncertainty in Language Models: Assessment through Rank-Calibration
                         <span class="venue-badge">EMNLP 2024</span>
                     </h3>
-                    <p><strong>TL;DR:</strong> A rank-based framework for assessing LLM uncertainty measures, robust to the differing value ranges of existing metrics and free of ad-hoc thresholds.</p>
-                    <p><strong>Abstract:</strong> Many uncertainty measures (semantic entropy, affinity-graph-based measures, etc.) have been proposed for language models, but they take values over different ranges, making them hard to compare. We develop <em>Rank-Calibration</em>, a principled framework whose key tenet is that higher uncertainty should imply lower generation quality on average. Rank-calibration quantifies deviations from this ideal without requiring ad-hoc thresholding of correctness scores. We demonstrate broad applicability and interpretability empirically.</p>
-                    <p>
+                    <p><strong>TL;DR</strong>A rank-based framework for assessing LLM uncertainty measures, robust to the differing value ranges of existing metrics and free of ad-hoc thresholds.</p>
+                    <p><strong>Abstract</strong>Many uncertainty measures (semantic entropy, affinity-graph-based measures, etc.) have been proposed for language models, but they take values over different ranges, making them hard to compare. We develop <em>Rank-Calibration</em>, a principled framework whose key tenet is that higher uncertainty should imply lower generation quality on average. Rank-calibration quantifies deviations from this ideal without requiring ad-hoc thresholding of correctness scores. We demonstrate broad applicability and interpretability empirically.</p>
+                    <p class="paper-links">
                         <a href="https://arxiv.org/abs/2404.03163" target="_blank" rel="noopener">arXiv</a>
-                        &nbsp;·&nbsp;
                         <a href="materials/papers/2024.emnlp-main.18.pdf" target="_blank" rel="noopener">PDF</a>
                     </p>
                 </div>
@@ -140,22 +180,22 @@
                     <h3>TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction
                         <span class="venue-badge">NAACL 2024</span>
                     </h3>
-                    <p><strong>TL;DR:</strong> The first end-to-end statistical correctness guarantee for retrieval-augmented generation, combining conformal prediction with Bayesian optimization.</p>
-                    <p><strong>Abstract:</strong> When applied to open-domain question answering, LLMs frequently generate incorrect responses based on hallucinated facts. RAG mitigates hallucinations but provides no correctness guarantees. We propose TRAQ, which uses conformal prediction to construct prediction sets guaranteed to contain the semantically correct response with high probability, and Bayesian optimization to minimize set size. Empirically, TRAQ provides the desired correctness guarantee while reducing prediction set size by 16.2% on average compared to ablations. <em>Also: Best Paper, 2023 TEACH Workshop @ ICML.</em></p>
-                    <p>
+                    <p><strong>TL;DR</strong>The first end-to-end statistical correctness guarantee for retrieval-augmented generation, combining conformal prediction with Bayesian optimization.</p>
+                    <p><strong>Abstract</strong>When applied to open-domain question answering, LLMs frequently generate incorrect responses based on hallucinated facts. RAG mitigates hallucinations but provides no correctness guarantees. We propose TRAQ, which uses conformal prediction to construct prediction sets guaranteed to contain the semantically correct response with high probability, and Bayesian optimization to minimize set size. Empirically, TRAQ provides the desired correctness guarantee while reducing prediction set size by 16.2% on average compared to ablations. <em>Also: Best Paper, 2023 TEACH Workshop @ ICML.</em></p>
+                    <p class="paper-links">
                         <a href="https://arxiv.org/abs/2307.04642" target="_blank" rel="noopener">arXiv</a>
-                        &nbsp;·&nbsp;
                         <a href="materials/papers/2024.naacl-long.210.pdf" target="_blank" rel="noopener">PDF</a>
                     </p>
                 </div>
             </div>
 
-            <h3 class="pub-year">2026 / Under Review</h3>
+            <p class="pub-year" data-count="04 papers">04.2 — 2026 / Under Review</p>
             <ul class="pub-list">
                 <li>
+                    <span class="pub-num">[01]</span>
                     <span class="pub-title">QUASAR: A Fast, Reliable, and Secure Programming Language for LLM Agents with Code Actions</span>
                     <span class="pub-meta">
-                        <span class="venue">Under review at ICLR 2026</span>
+                        <span class="venue">ICLR 2026 / under review</span>
                         <span class="pub-links">
                             <a href="https://arxiv.org/abs/2506.12202" target="_blank" rel="noopener">arXiv</a>
                             <a href="materials/papers/2506.12202v1.pdf" target="_blank" rel="noopener">PDF</a>
@@ -163,6 +203,7 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[02]</span>
                     <span class="pub-title">SeekerGym: Benchmarking Agentic Information Seeking under Uncertainty</span>
                     <span class="pub-meta">
                         <span class="venue">Under review</span>
@@ -172,6 +213,7 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[03]</span>
                     <span class="pub-title">BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks</span>
                     <span class="pub-meta">
                         <span class="venue">Under review</span>
@@ -182,6 +224,7 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[04]</span>
                     <span class="pub-title">Development of a Deep Learning Model to Screen for Primary Open-Angle Glaucoma in African Ancestry Individuals</span>
                     <span class="pub-meta">
                         <span class="venue">npj Digital Medicine, 2026</span>
@@ -193,9 +236,10 @@
                 </li>
             </ul>
 
-            <h3 class="pub-year">2025</h3>
+            <p class="pub-year" data-count="04 papers">04.3 — 2025</p>
             <ul class="pub-list">
                 <li>
+                    <span class="pub-num">[05]</span>
                     <span class="pub-title">Alignment of Large Language Models with Constrained Learning</span>
                     <span class="pub-meta">
                         <span class="venue">NeurIPS 2025</span>
@@ -206,6 +250,7 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[06]</span>
                     <span class="pub-title">MrGuard: A Multilingual Reasoning Guardrail for Universal LLM Safety</span>
                     <span class="pub-meta">
                         <span class="venue">EMNLP 2025</span>
@@ -215,12 +260,14 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[07]</span>
                     <span class="pub-title">Conformal Structured Prediction</span>
                     <span class="pub-meta">
                         <span class="venue">ICLR 2025</span>
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[08]</span>
                     <span class="pub-title">Evaluating the Diversity and Quality of LLM Generated Content</span>
                     <span class="pub-meta">
                         <span class="venue">arXiv preprint, 2025</span>
@@ -228,9 +275,10 @@
                 </li>
             </ul>
 
-            <h3 class="pub-year">2024</h3>
+            <p class="pub-year" data-count="05 papers">04.4 — 2024</p>
             <ul class="pub-list">
                 <li>
+                    <span class="pub-num">[09]</span>
                     <span class="pub-title">REDO: Execution-Free Runtime Error Detection for Coding Agents</span>
                     <span class="pub-meta">
                         <span class="venue">2024</span>
@@ -241,6 +289,7 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[10]</span>
                     <span class="pub-title">MOMENT: A Family of Open Time-Series Foundation Models</span>
                     <span class="pub-meta">
                         <span class="venue">ICML 2024</span>
@@ -251,28 +300,32 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[11]</span>
                     <span class="pub-title">Conformalized Credal Regions for Classification with Ambiguous Ground Truth</span>
                     <span class="pub-meta">
                         <span class="venue">TMLR 2024</span>
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[12]</span>
                     <span class="pub-title">Advancing Glaucoma Care: Integrating Artificial Intelligence in Diagnosis, Management, and Progression Detection</span>
                     <span class="pub-meta">
                         <span class="venue">Bioengineering, 2024</span>
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[13]</span>
                     <span class="pub-title">Utilizing Deep Learning to Diagnose Glaucoma from Fundus Photography in African Ancestry Individuals</span>
                     <span class="pub-meta">
-                        <span class="venue">Investigative Ophthalmology &amp; Visual Science, 2024</span>
+                        <span class="venue">IOVS, 2024</span>
                     </span>
                 </li>
             </ul>
 
-            <h3 class="pub-year">2023</h3>
+            <p class="pub-year" data-count="01 paper">04.5 — 2023</p>
             <ul class="pub-list">
                 <li>
+                    <span class="pub-num">[14]</span>
                     <span class="pub-title">Angelic Patches for Improving Third-Party Object Detector Performance</span>
                     <span class="pub-meta">
                         <span class="venue">CVPR 2023</span>
@@ -280,9 +333,10 @@
                 </li>
             </ul>
 
-            <h3 class="pub-year">Earlier</h3>
+            <p class="pub-year" data-count="05 papers">04.6 — Earlier</p>
             <ul class="pub-list">
                 <li>
+                    <span class="pub-num">[15]</span>
                     <span class="pub-title">PAC-Wrap: Semi-Supervised PAC Anomaly Detection</span>
                     <span class="pub-meta">
                         <span class="venue">KDD 2022</span>
@@ -292,12 +346,14 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[16]</span>
                     <span class="pub-title">Towards PAC Multi-Object Detection and Tracking</span>
                     <span class="pub-meta">
                         <span class="venue">arXiv preprint, 2022</span>
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[17]</span>
                     <span class="pub-title">Safe Reinforcement Learning via Statistical Model Predictive Shielding</span>
                     <span class="pub-meta">
                         <span class="venue">RSS 2021</span>
@@ -307,18 +363,21 @@
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[18]</span>
                     <span class="pub-title">Robust Model Predictive Shielding for Safe Reinforcement Learning with Stochastic Dynamics</span>
                     <span class="pub-meta">
                         <span class="venue">ICRA 2020</span>
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[19]</span>
                     <span class="pub-title">PAC Confidence Predictions for Deep Neural Network Classifiers</span>
                     <span class="pub-meta">
                         <span class="venue">arXiv preprint, 2020</span>
                     </span>
                 </li>
                 <li>
+                    <span class="pub-num">[20]</span>
                     <span class="pub-title">Learning Safe Unlabeled Multi-Robot Planning with Motion Constraints</span>
                     <span class="pub-meta">
                         <span class="venue">IROS 2019</span>
@@ -330,7 +389,11 @@
 
     <section id="contact" class="section">
         <div class="container">
-            <h2>Contact</h2>
+            <h2>
+                <span class="num">05</span>
+                <span class="title">Contact</span>
+                <span class="count">&para;</span>
+            </h2>
             <ul class="contact-list">
                 <li><strong>Email</strong><a href="mailto:shuoli0128@gmail.com">shuoli0128@gmail.com</a></li>
                 <li><strong>Location</strong>Mountain View, CA</li>
@@ -341,9 +404,11 @@
 
     <footer>
         <div class="container">
-            <p>Founder &amp; co-host of <a href="https://github.com/Penn-Agents" target="_blank" rel="noopener">Penn-Agents</a> — UPenn LLM Agent Reading Group</p>
-            <p>&copy; 2026 Shuo Li. All rights reserved.</p>
+            <span>© 2026 Shuo Li</span>
+            <span>Founder &amp; co-host · <a href="https://github.com/Penn-Agents" target="_blank" rel="noopener">Penn-Agents</a></span>
+            <span>Set in Inter &amp; JetBrains Mono</span>
         </div>
     </footer>
+
 </body>
 </html>
